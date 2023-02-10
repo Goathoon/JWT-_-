@@ -19,7 +19,7 @@ import org.springframework.http.HttpHeaders;
 
 @RestController
 @RequestMapping("/api")
-public class AuthController {
+public class    AuthController {
     private final TokenProvider tokenProvider;
     private final AuthenticationManagerBuilder authenticationManagerBuilder;
 
